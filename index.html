@@ -46,49 +46,61 @@
   </head>
   <body class="font-sans bg-gray-100 text-gray-900 flex flex-col min-h-screen">
     <div>
+      <section
+        id="header"
+        class="sm:max-w-2xl mx-auto px-4 my-8 text-3xl roboto-black text-green-700"
+      >
+        <p>Maciej Śpiewak</p>
+        <p>Tłumacz przysięgły</p>
+        <p>Język angielski</p>
+      </section>
+
       <section id="introduction" class="sm:max-w-2xl mx-auto px-4 my-8">
         <h2 class="text-2xl text-green-700 mb-4 roboto-black">O mnie</h2>
-        <div class="flex gap-2 sm:gap-4 bg-gray-200 p-4 flex-col sm:flex-row">
-          <img
-            src="./assets/img_maciej.jpg"
-            class="sm:w-36 rounded-md object-cover w-full"
-          />
-          <div class="flex flex-col">
-            <div class="flex gap-0 mb-2 flex-col sm:flex-row sm:gap-4">
-              <p class="m-0 p-0">
-                Tel.
-                <a
-                  href="tel:+48602358768"
-                  class="text-green-700 hover:text-green-700 hover:underline"
-                  >602 35 87 68</a
-                >
-              </p>
-              <p class="p-0 m-0">
-                Email:
-                <a
-                  href="mailto:dobra@post.pl"
-                  class="text-green-700 hover:text-green-700 hover:underline"
-                  >dobra@post.pl</a
-                >
-              </p>
-            </div>
+        <div class="grid gap-2 sm:gap-4 bg-gray-200 p-4 grid-cols-3">
+          <div class="row-span-2">
+            <img
+              src="./assets/img_maciej.jpg"
+              class="rounded-md object-cover w-36 sm:w-auto"
+            />
+          </div>
 
-            <p>
-              Nazywam się Maciej Śpiewak. Prowadzę działalność tłumacza
-              przysięgłego –
-              <span class="roboto-bold">język angielski</span> - od 27.10.1998
-              r., pismo Pana Grzegorza Chojnowskiego, Prezesa Sądu Wojewódzkiego
-              w Szczecinie, A.354/98/T; po zmianach legislacyjnych, pismem
-              DO-V-0191-1283/05 Ministerstwo Sprawiedliwości poinformowało o
-              wpisie pod numerem TP/507/05 na listę tłumaczy przysięgłych,
-              prowadzoną przez Ministra Sprawiedliwości;
+          <div class="col-span-2">
+            <p class="m-0 p-0">
+              Tel.
+              <a
+                href="tel:+48602358768"
+                class="text-green-700 hover:text-green-700 hover:underline"
+                >602 35 87 68</a
+              >
+            </p>
+            <p class="p-0 m-0">
+              Email:
+              <a
+                href="mailto:dobra@post.pl"
+                class="text-green-700 hover:text-green-700 hover:underline"
+                >dobra@post.pl</a
+              >
             </p>
           </div>
+
+          <p class="sm:col-span-2 col-span-3">
+            Nazywam się Maciej Śpiewak. Prowadzę działalność tłumacza
+            przysięgłego –
+            <span class="roboto-bold">język angielski</span> - od 27.10.1998 r.,
+            pismo Pana Grzegorza Chojnowskiego, Prezesa Sądu Wojewódzkiego w
+            Szczecinie, A.354/98/T; po zmianach legislacyjnych, pismem
+            DO-V-0191-1283/05 Ministerstwo Sprawiedliwości poinformowało o
+            wpisie pod numerem TP/507/05 na listę tłumaczy przysięgłych,
+            prowadzoną przez Ministra Sprawiedliwości;
+          </p>
         </div>
       </section>
 
       <section id="services" class="sm:max-w-2xl mx-auto px-4 my-8">
-        <h2 class="text-2xl text-green-700 mb-4 roboto-black">Usługi</h2>
+        <h2 class="text-2xl text-green-700 mb-4 roboto-black">
+          Informacje dodatkowe
+        </h2>
         <div class="flex gap-4 sm:gap-8 px-8 py-4 flex-col sm:flex-row">
           <ul class="list-disc list-outside">
             <li class="mb-4">
